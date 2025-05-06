@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 80px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+}
+.box:hover{
+    box-shadow: 2px 3px 3px wheat;
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+}
+.nav:hover{
+    color: gray;
+
+}
+.btn{
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: red;
+color: white;
+border: none;
+font-weight: 600;
+
+}
+.btn:hover{
+    background-color: white;
+    transition: 1s;
+    color: red;
+    border: 2px solid wheat;
+}
+/* SECTION 02 */
+.section2{
+    margin-left:200px ;
+    margin-top: 40px;
+    display: flex;
+}
+.sec2{
+    margin-left: 100px;
+}
+.section2 img{
+    width: 500px;
+}
+.section2 p{
+    font-weight: 600;
+}
+.sec1 h1{
+    color: black;
+    font-size: 70px;
+    font-weight: 700;
+}
+.btn1{
+    padding-left: 25px;
+padding-right: 25px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: red;
+color: white;
+border: none;
+font-weight: 600;
+
+}
+.btn1:hover{
+    background-color: white;
+    transition: 1s;
+    color: red;
+    border: 2px solid wheat;
+}
+.btn2{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    border: none;
+    font-weight: 600;
+    border: 1px solid black;
+}
+.btn2:hover{
+    background-color: white;
+    transition: 1s;
+    color: red;
+    border: 2px solid wheat;
+}
+.un{
+    color: rgb(47, 46, 46);
+}
+.logo1{
+    width: 50px;
+}
